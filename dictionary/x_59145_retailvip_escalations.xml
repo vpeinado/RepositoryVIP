@@ -1,3 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="live_feed=true" extends="task" label="Retailvip Escalations" max_length="40" name="x_59145_retailvip_escalations" type="collection"/>
+    <element attributes="live_feed=true" extends="task" label="Retailvip Escalations" max_length="40" name="x_59145_retailvip_escalations" type="collection">
+        <element choice="3" label="Escalation Cause" max_length="4000" name="escalation_cause" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Facilities escalation" value="facilities_escalation"/>
+                <element inactive_on_update="false" label="HR Escalation" value="hr_escalation"/>
+                <element inactive_on_update="false" label="Merchant Escalation" value="merchant_escalation"/>
+                <element inactive_on_update="false" label="No Prior IT issue" value="no_prior_it_issue"/>
+                <element inactive_on_update="false" label="Reoccurring IT issue" value="reoccuring_it_issue"/>
+            </choice>
+        </element>
+        <element choice="1" label="Known Problem" max_length="100" name="known_problem" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" value="no"/>
+                <element inactive_on_update="false" label="Yes" value="1"/>
+            </choice>
+        </element>
+        <element label="Number of Incidents Opened" max_length="3" name="number_of_incidents_opened" type="integer"/>
+        <element choice="1" label="Prevention" max_length="2000" name="prevention" type="string">
+            <choice/>
+        </element>
+        <element label="VP DM Name" mandatory="true" max_length="32" name="vp_dm_name" reference="sys_user" type="reference"/>
+    </element>
 </database>

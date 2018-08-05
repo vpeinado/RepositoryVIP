@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="known_problem" table="x_59145_retailvip_escalations" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>known_problem</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_59145_retailvip_escalations</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-05 13:29:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3af9972cdb33530022ac58b3ca9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-05 13:29:55</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>known_problem</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_59145_retailvip_escalations</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-05 13:30:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f0ad32cdb33530022ac58b3ca96194d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-05 13:30:05</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>known_problem</element>
+            <name>x_59145_retailvip_escalations</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-05 13:29:55</sys_created_on>
+            <sys_id>ac0ad32cdb33530022ac58b3ca961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>known_problem</sys_name>
+            <sys_package display_value="RetailVIP" source="x_59145_retailvip">a34aff94db3b130022ac58b3ca96198e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RetailVIP">a34aff94db3b130022ac58b3ca96198e</sys_scope>
+            <sys_update_name>sys_choice_x_59145_retailvip_escalations_known_problem</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-05 13:29:55</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

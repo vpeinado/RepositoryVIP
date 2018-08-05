@@ -5,37 +5,39 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter/>
-        <hint/>
+        <filter table="x_59145_retailvip_escalations">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint>Open RVIPs</hint>
         <homepage/>
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>RetailVIP Escalations</mobile_title>
+        <mobile_title>Open RVIP's</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_59145_retailvip_escalations</name>
         <order>100</order>
-        <override_menu_roles>false</override_menu_roles>
+        <override_menu_roles>true</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_59145_retailvip.user</roles>
+        <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-08-04 21:12:35</sys_created_on>
+        <sys_created_on>2018-08-05 13:38:41</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>4c5a7358db3b130022ac58b3ca9619e7</sys_id>
+        <sys_id>b99bdf6cdb33530022ac58b3ca9619e0</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>RetailVIP Escalations</sys_name>
+        <sys_name>Open RVIP's</sys_name>
         <sys_overrides/>
         <sys_package display_value="RetailVIP" source="x_59145_retailvip">a34aff94db3b130022ac58b3ca96198e</sys_package>
         <sys_policy/>
         <sys_scope display_value="RetailVIP">a34aff94db3b130022ac58b3ca96198e</sys_scope>
-        <sys_update_name>sys_app_module_4c5a7358db3b130022ac58b3ca9619e7</sys_update_name>
+        <sys_update_name>sys_app_module_b99bdf6cdb33530022ac58b3ca9619e0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-05 12:23:33</sys_updated_on>
+        <sys_updated_on>2018-08-05 17:00:46</sys_updated_on>
         <timeline_page/>
-        <title>RetailVIP Escalations</title>
+        <title>Open RVIP's</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

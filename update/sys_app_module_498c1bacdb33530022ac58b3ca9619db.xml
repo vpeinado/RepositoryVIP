@@ -6,36 +6,36 @@
         <content_page/>
         <device_type/>
         <filter/>
-        <hint/>
+        <hint>All Closed RVIP's</hint>
         <homepage/>
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>RetailVIP Escalations</mobile_title>
+        <mobile_title>All Closed RVIPs</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_59145_retailvip_escalations</name>
-        <order>100</order>
+        <order>150</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_59145_retailvip.user</roles>
+        <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-08-04 21:12:35</sys_created_on>
+        <sys_created_on>2018-08-05 13:41:58</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>4c5a7358db3b130022ac58b3ca9619e7</sys_id>
+        <sys_id>498c1bacdb33530022ac58b3ca9619db</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>RetailVIP Escalations</sys_name>
+        <sys_name>All Closed RVIPs</sys_name>
         <sys_overrides/>
         <sys_package display_value="RetailVIP" source="x_59145_retailvip">a34aff94db3b130022ac58b3ca96198e</sys_package>
         <sys_policy/>
         <sys_scope display_value="RetailVIP">a34aff94db3b130022ac58b3ca96198e</sys_scope>
-        <sys_update_name>sys_app_module_4c5a7358db3b130022ac58b3ca9619e7</sys_update_name>
+        <sys_update_name>sys_app_module_498c1bacdb33530022ac58b3ca9619db</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-05 12:23:33</sys_updated_on>
+        <sys_updated_on>2018-08-05 16:59:24</sys_updated_on>
         <timeline_page/>
-        <title>RetailVIP Escalations</title>
+        <title>All Closed RVIPs</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
